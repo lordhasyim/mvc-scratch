@@ -1,0 +1,33 @@
+<!-- PROPS-INSIGHT METATAG -->
+    <meta name="adx:sections" content="Home" /> 
+<!-- END PROPS-INSIGHT METATAG -->
+
+<!-- ProPS Insight script -->
+    <script type="text/javascript">
+    var _siteId="579090314";
+    (function(){
+        var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//st-a.props.id/insight.js";
+        var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+    </script>
+<!-- End of ProPS Insight script -->
+<?php
+function insert_property_og($filename, $meta_og_title, $meta_og_url, $meta_og_image, $meta_app_id = '', $meta_desc = '', $props_insight = '', $props_insight_keyword = '', $html_content = ''){};
+?>
+
+buat replace untuk replace semua block code di bola/www
+bisa menggunakan script yang sudah ada /devel/replace
+
+be carefull do this
+buat demo menggunakan data dummy, dl folder 2-3 file untuk di replace, 
+
+jika sudah fix, request ke noc untuk menjalankan scriptnya
+
+checklist done
+main.html
+function.global.php
+function.site.php
+
+function.trending.php
+function.news.php
+
+function.schedule.php
