@@ -73,4 +73,5 @@ System Volume Information/
 *.ignore.*
 *.ignore
 
-.backup-kl-delete-props/
+.backup-kl-delete-props
+.phpintel
