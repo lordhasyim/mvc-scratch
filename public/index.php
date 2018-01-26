@@ -16,8 +16,14 @@ $router->add('',['controller' => 'Home', 'action' => 'index']);
 $router->add('posts',['controller' => 'Posts', 'action' => 'index']);
 $router->add('posts/new',['controller' => 'Posts', 'action' => 'new']);
 
-echo '<pre>';
-var_dump($router->getRoutes());
-echo '</pre>';
+//matcg the requested route
+$url = $_SERVER['QUERY_STRING'];
+if ($router->match($url)) {
+    echo '<pre>';
+    var_dump($router->getParams());
+    echo '</pre>';
+} else {
+    echo "not found route for {$url}";
+}
 
 
